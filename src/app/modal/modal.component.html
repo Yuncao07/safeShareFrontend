@@ -1,0 +1,8 @@
+<div class="scrim" *ngIf="show">
+    <div class="modal">
+        <div>
+            <button (click)="close()">X</button>
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>

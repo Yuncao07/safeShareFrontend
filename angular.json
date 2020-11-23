@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "safeShare"
+  "defaultProject": "safeShare",
+  "cli": {
+    "analytics": "e8066990-605b-4fa5-b22d-e313e3670fe7"
+  }
 }

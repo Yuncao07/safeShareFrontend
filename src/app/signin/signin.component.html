@@ -1,0 +1,13 @@
+<div *ngIf="!loggedIn" class="login-container">
+    <form class="login-form" (submit)="login(username.value, password.value)">
+      <input #username type="text" placeholder="username">
+      <input #password type="password" placeholder="password">
+    <button type="submit">
+        Sign In 
+      </button>
+    </form>
+  </div>
+
+  <div *ngIf="loggedIn">
+    Logged In!
+  </div>
